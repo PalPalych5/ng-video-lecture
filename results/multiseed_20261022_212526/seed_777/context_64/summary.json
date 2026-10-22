@@ -1,0 +1,50 @@
+{
+  "label": "context_64",
+  "seed": 777,
+  "block_size": 64,
+  "parameters": {
+    "batch_size": 16,
+    "max_iters": 800,
+    "eval_interval": 200,
+    "eval_iters": 30,
+    "learning_rate": 0.0003,
+    "n_embd": 64,
+    "n_head": 4,
+    "n_layer": 2,
+    "dropout": 0.1,
+    "block_size": 64,
+    "label": "context_64"
+  },
+  "param_count": 112193,
+  "final_train_loss": 2.3266618251800537,
+  "final_val_loss": 2.33705472946167,
+  "training_seconds": 18.51,
+  "history": [
+    {
+      "step": 0,
+      "train_loss": 4.16323184967041,
+      "val_loss": 4.167877674102783
+    },
+    {
+      "step": 200,
+      "train_loss": 2.6812474727630615,
+      "val_loss": 2.7008612155914307
+    },
+    {
+      "step": 400,
+      "train_loss": 2.5175416469573975,
+      "val_loss": 2.500823974609375
+    },
+    {
+      "step": 600,
+      "train_loss": 2.4155828952789307,
+      "val_loss": 2.428082227706909
+    },
+    {
+      "step": 800,
+      "train_loss": 2.3266618251800537,
+      "val_loss": 2.33705472946167
+    }
+  ],
+  "generated_sample": "LENHES\nP HMALUF ENOR:\nS d sole bormever awed, dds cgral's\nZy uatptest cogwef homongf p; jeince bort hodsk tof gerieme,"
+}

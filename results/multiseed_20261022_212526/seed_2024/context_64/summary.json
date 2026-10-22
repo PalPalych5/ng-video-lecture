@@ -1,0 +1,50 @@
+{
+  "label": "context_64",
+  "seed": 2024,
+  "block_size": 64,
+  "parameters": {
+    "batch_size": 16,
+    "max_iters": 800,
+    "eval_interval": 200,
+    "eval_iters": 30,
+    "learning_rate": 0.0003,
+    "n_embd": 64,
+    "n_head": 4,
+    "n_layer": 2,
+    "dropout": 0.1,
+    "block_size": 64,
+    "label": "context_64"
+  },
+  "param_count": 112193,
+  "final_train_loss": 2.3337209224700928,
+  "final_val_loss": 2.341752767562866,
+  "training_seconds": 17.09,
+  "history": [
+    {
+      "step": 0,
+      "train_loss": 4.232992172241211,
+      "val_loss": 4.232994556427002
+    },
+    {
+      "step": 200,
+      "train_loss": 2.711167573928833,
+      "val_loss": 2.7233657836914062
+    },
+    {
+      "step": 400,
+      "train_loss": 2.516077756881714,
+      "val_loss": 2.509786367416382
+    },
+    {
+      "step": 600,
+      "train_loss": 2.422187328338623,
+      "val_loss": 2.4243063926696777
+    },
+    {
+      "step": 800,
+      "train_loss": 2.3337209224700928,
+      "val_loss": 2.341752767562866
+    }
+  ],
+  "generated_sample": "LENHES\nNO:\nALUF ENOR:\nSI\nBNEIO: somUve, aw wwidds cgral's:\nLe athe stacogwef foyongf p;\njeince nomt hodsk tof gerilis,"
+}

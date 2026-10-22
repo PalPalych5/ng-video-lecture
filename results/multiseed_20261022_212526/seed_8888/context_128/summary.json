@@ -1,0 +1,50 @@
+{
+  "label": "context_128",
+  "seed": 8888,
+  "block_size": 128,
+  "parameters": {
+    "batch_size": 16,
+    "max_iters": 800,
+    "eval_interval": 200,
+    "eval_iters": 30,
+    "learning_rate": 0.0003,
+    "n_embd": 64,
+    "n_head": 4,
+    "n_layer": 2,
+    "dropout": 0.1,
+    "block_size": 128,
+    "label": "context_128"
+  },
+  "param_count": 116289,
+  "final_train_loss": 2.399218797683716,
+  "final_val_loss": 2.3903534412384033,
+  "training_seconds": 17.25,
+  "history": [
+    {
+      "step": 0,
+      "train_loss": 4.190199851989746,
+      "val_loss": 4.189948558807373
+    },
+    {
+      "step": 200,
+      "train_loss": 2.687131643295288,
+      "val_loss": 2.687741279602051
+    },
+    {
+      "step": 400,
+      "train_loss": 2.5077097415924072,
+      "val_loss": 2.5104849338531494
+    },
+    {
+      "step": 600,
+      "train_loss": 2.437403678894043,
+      "val_loss": 2.445054531097412
+    },
+    {
+      "step": 800,
+      "train_loss": 2.399218797683716,
+      "val_loss": 2.3903534412384033
+    }
+  ],
+  "generated_sample": "LENHES\nPO:\nAbur pers bis. ss, t somoverye wiwidds cgral's:\nLe?\n\nKRAst I gwef fourngfep; jeince burtherdsk tof gerilis,"
+}

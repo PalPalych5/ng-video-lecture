@@ -1,0 +1,50 @@
+{
+  "label": "context_64",
+  "seed": 42,
+  "block_size": 64,
+  "parameters": {
+    "batch_size": 16,
+    "max_iters": 800,
+    "eval_interval": 200,
+    "eval_iters": 30,
+    "learning_rate": 0.0003,
+    "n_embd": 64,
+    "n_head": 4,
+    "n_layer": 2,
+    "dropout": 0.1,
+    "block_size": 64,
+    "label": "context_64"
+  },
+  "param_count": 112193,
+  "final_train_loss": 2.360227108001709,
+  "final_val_loss": 2.3520724773406982,
+  "training_seconds": 17.17,
+  "history": [
+    {
+      "step": 0,
+      "train_loss": 4.1979169845581055,
+      "val_loss": 4.198273658752441
+    },
+    {
+      "step": 200,
+      "train_loss": 2.683777332305908,
+      "val_loss": 2.7001547813415527
+    },
+    {
+      "step": 400,
+      "train_loss": 2.508906602859497,
+      "val_loss": 2.4935412406921387
+    },
+    {
+      "step": 600,
+      "train_loss": 2.4284181594848633,
+      "val_loss": 2.4167587757110596
+    },
+    {
+      "step": 800,
+      "train_loss": 2.360227108001709,
+      "val_loss": 2.3520724773406982
+    }
+  ],
+  "generated_sample": "LENHE;\nNO:\nAbre pers bis. ss, t bomUver by wwidds cgral's:\nLe?\nMy ealacogwef hourngf p; jeince bortherdsk tof gerisis,"
+}

@@ -1,0 +1,50 @@
+{
+  "label": "context_64",
+  "seed": 999,
+  "block_size": 64,
+  "parameters": {
+    "batch_size": 16,
+    "max_iters": 800,
+    "eval_interval": 200,
+    "eval_iters": 30,
+    "learning_rate": 0.0003,
+    "n_embd": 64,
+    "n_head": 4,
+    "n_layer": 2,
+    "dropout": 0.1,
+    "block_size": 64,
+    "label": "context_64"
+  },
+  "param_count": 112193,
+  "final_train_loss": 2.364449977874756,
+  "final_val_loss": 2.3618340492248535,
+  "training_seconds": 17.78,
+  "history": [
+    {
+      "step": 0,
+      "train_loss": 4.184043884277344,
+      "val_loss": 4.182532787322998
+    },
+    {
+      "step": 200,
+      "train_loss": 2.6855862140655518,
+      "val_loss": 2.7014079093933105
+    },
+    {
+      "step": 400,
+      "train_loss": 2.5308752059936523,
+      "val_loss": 2.5231175422668457
+    },
+    {
+      "step": 600,
+      "train_loss": 2.421104669570923,
+      "val_loss": 2.432558536529541
+    },
+    {
+      "step": 800,
+      "train_loss": 2.364449977874756,
+      "val_loss": 2.3618340492248535
+    }
+  ],
+  "generated_sample": "KENHE;\nPONMILB: Eves bis. sshe bo'mever awed, dduregr lostige?\n\nKRAUMTINK:\nThe, ongf panjeince ncetherdsk tof geris Sai"
+}

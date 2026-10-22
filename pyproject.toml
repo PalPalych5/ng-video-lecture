@@ -1,0 +1,22 @@
+[project]
+name = "ng-video-lecture-variant8"
+version = "0.1.0"
+description = "Transformer architecture lab (Karpathy nanoGPT variant 8: context length 64 vs 128)"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "torch==2.5.1+cu121",
+    "matplotlib>=3.8.0",
+    "pandas>=2.1.0",
+    "notebook>=7.0.0",
+    "ipykernel>=6.29.0",
+    "nbformat>=5.9.0",
+]
+
+[[tool.uv.index]]
+name = "pytorch-cu121"
+url = "https://download.pytorch.org/whl/cu121"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu121" }

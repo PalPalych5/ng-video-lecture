@@ -1,0 +1,50 @@
+{
+  "label": "context_128",
+  "seed": 1234,
+  "block_size": 128,
+  "parameters": {
+    "batch_size": 16,
+    "max_iters": 800,
+    "eval_interval": 200,
+    "eval_iters": 30,
+    "learning_rate": 0.0003,
+    "n_embd": 64,
+    "n_head": 4,
+    "n_layer": 2,
+    "dropout": 0.1,
+    "block_size": 128,
+    "label": "context_128"
+  },
+  "param_count": 116289,
+  "final_train_loss": 2.3981845378875732,
+  "final_val_loss": 2.3939297199249268,
+  "training_seconds": 17.2,
+  "history": [
+    {
+      "step": 0,
+      "train_loss": 4.148153781890869,
+      "val_loss": 4.149858474731445
+    },
+    {
+      "step": 200,
+      "train_loss": 2.6783154010772705,
+      "val_loss": 2.6745707988739014
+    },
+    {
+      "step": 400,
+      "train_loss": 2.5282492637634277,
+      "val_loss": 2.5088164806365967
+    },
+    {
+      "step": 600,
+      "train_loss": 2.4504663944244385,
+      "val_loss": 2.4429612159729004
+    },
+    {
+      "step": 800,
+      "train_loss": 2.3981845378875732,
+      "val_loss": 2.3939297199249268
+    }
+  ],
+  "generated_sample": "LENHES\nN HIILUF EROR:\nS h sole t thover aweaw dds cgral's:\nLe?\nMy ealacogwef fourngf p; jeince burtherdsk t t gerilis,"
+}

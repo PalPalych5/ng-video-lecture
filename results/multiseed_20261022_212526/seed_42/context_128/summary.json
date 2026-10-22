@@ -1,0 +1,50 @@
+{
+  "label": "context_128",
+  "seed": 42,
+  "block_size": 128,
+  "parameters": {
+    "batch_size": 16,
+    "max_iters": 800,
+    "eval_interval": 200,
+    "eval_iters": 30,
+    "learning_rate": 0.0003,
+    "n_embd": 64,
+    "n_head": 4,
+    "n_layer": 2,
+    "dropout": 0.1,
+    "block_size": 128,
+    "label": "context_128"
+  },
+  "param_count": 116289,
+  "final_train_loss": 2.375216484069824,
+  "final_val_loss": 2.3953137397766113,
+  "training_seconds": 17.26,
+  "history": [
+    {
+      "step": 0,
+      "train_loss": 4.240190029144287,
+      "val_loss": 4.23956298828125
+    },
+    {
+      "step": 200,
+      "train_loss": 2.696934461593628,
+      "val_loss": 2.69120192527771
+    },
+    {
+      "step": 400,
+      "train_loss": 2.52001690864563,
+      "val_loss": 2.5272247791290283
+    },
+    {
+      "step": 600,
+      "train_loss": 2.452895164489746,
+      "val_loss": 2.4423415660858154
+    },
+    {
+      "step": 800,
+      "train_loss": 2.375216484069824,
+      "val_loss": 2.3953137397766113
+    }
+  ],
+  "generated_sample": "LENHES\nPONMALBF ENOR:\nS h se, t bomeverye wiwidds cgral's:\nLen the stacogwef fomongf p; jeince ncetherdsk tof gerilis,"
+}

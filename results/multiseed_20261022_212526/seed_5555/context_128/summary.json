@@ -1,0 +1,50 @@
+{
+  "label": "context_128",
+  "seed": 5555,
+  "block_size": 128,
+  "parameters": {
+    "batch_size": 16,
+    "max_iters": 800,
+    "eval_interval": 200,
+    "eval_iters": 30,
+    "learning_rate": 0.0003,
+    "n_embd": 64,
+    "n_head": 4,
+    "n_layer": 2,
+    "dropout": 0.1,
+    "block_size": 128,
+    "label": "context_128"
+  },
+  "param_count": 116289,
+  "final_train_loss": 2.3920235633850098,
+  "final_val_loss": 2.3900606632232666,
+  "training_seconds": 17.16,
+  "history": [
+    {
+      "step": 0,
+      "train_loss": 4.189631462097168,
+      "val_loss": 4.189924716949463
+    },
+    {
+      "step": 200,
+      "train_loss": 2.6927428245544434,
+      "val_loss": 2.699420213699341
+    },
+    {
+      "step": 400,
+      "train_loss": 2.519562244415283,
+      "val_loss": 2.52402663230896
+    },
+    {
+      "step": 600,
+      "train_loss": 2.4440667629241943,
+      "val_loss": 2.434767246246338
+    },
+    {
+      "step": 800,
+      "train_loss": 2.3920235633850098,
+      "val_loss": 2.3900606632232666
+    }
+  ],
+  "generated_sample": "LENHES\nPANMILBF ENOR:\nS vess,\nA bomUver awe widds cgral's:\nLe?\nMy estacogwef fourngf p; jeince bortourdsk t t gerilis,"
+}

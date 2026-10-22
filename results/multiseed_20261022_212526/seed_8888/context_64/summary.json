@@ -1,0 +1,50 @@
+{
+  "label": "context_64",
+  "seed": 8888,
+  "block_size": 64,
+  "parameters": {
+    "batch_size": 16,
+    "max_iters": 800,
+    "eval_interval": 200,
+    "eval_iters": 30,
+    "learning_rate": 0.0003,
+    "n_embd": 64,
+    "n_head": 4,
+    "n_layer": 2,
+    "dropout": 0.1,
+    "block_size": 64,
+    "label": "context_64"
+  },
+  "param_count": 112193,
+  "final_train_loss": 2.343151330947876,
+  "final_val_loss": 2.3328006267547607,
+  "training_seconds": 17.38,
+  "history": [
+    {
+      "step": 0,
+      "train_loss": 4.210440158843994,
+      "val_loss": 4.207840442657471
+    },
+    {
+      "step": 200,
+      "train_loss": 2.692620038986206,
+      "val_loss": 2.6965157985687256
+    },
+    {
+      "step": 400,
+      "train_loss": 2.5050697326660156,
+      "val_loss": 2.5036816596984863
+    },
+    {
+      "step": 600,
+      "train_loss": 2.428140163421631,
+      "val_loss": 2.4229962825775146
+    },
+    {
+      "step": 800,
+      "train_loss": 2.343151330947876,
+      "val_loss": 2.3328006267547607
+    }
+  ],
+  "generated_sample": "KIbive l nombe noves bis\nB-she t thove yowe widds cgral's\nZLButtptest cogwef fomongf p;\njeince ncethed sk tof geritis,"
+}

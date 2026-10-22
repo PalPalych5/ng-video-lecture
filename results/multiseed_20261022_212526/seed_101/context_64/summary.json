@@ -1,0 +1,50 @@
+{
+  "label": "context_64",
+  "seed": 101,
+  "block_size": 64,
+  "parameters": {
+    "batch_size": 16,
+    "max_iters": 800,
+    "eval_interval": 200,
+    "eval_iters": 30,
+    "learning_rate": 0.0003,
+    "n_embd": 64,
+    "n_head": 4,
+    "n_layer": 2,
+    "dropout": 0.1,
+    "block_size": 64,
+    "label": "context_64"
+  },
+  "param_count": 112193,
+  "final_train_loss": 2.3465335369110107,
+  "final_val_loss": 2.366225004196167,
+  "training_seconds": 17.33,
+  "history": [
+    {
+      "step": 0,
+      "train_loss": 4.170910358428955,
+      "val_loss": 4.173959732055664
+    },
+    {
+      "step": 200,
+      "train_loss": 2.692883253097534,
+      "val_loss": 2.6930742263793945
+    },
+    {
+      "step": 400,
+      "train_loss": 2.5093882083892822,
+      "val_loss": 2.519943952560425
+    },
+    {
+      "step": 600,
+      "train_loss": 2.4367988109588623,
+      "val_loss": 2.4171969890594482
+    },
+    {
+      "step": 800,
+      "train_loss": 2.3465335369110107,
+      "val_loss": 2.366225004196167
+    }
+  ],
+  "generated_sample": "LENHES\nNGHMIET:\nLers bis. Will bo'move, awe widds cgral's\nZLBustptest cogwef foyongf pusjeince bort hissk tof gerilis,"
+}

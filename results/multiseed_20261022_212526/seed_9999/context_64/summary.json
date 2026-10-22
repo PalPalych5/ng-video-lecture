@@ -1,0 +1,50 @@
+{
+  "label": "context_64",
+  "seed": 9999,
+  "block_size": 64,
+  "parameters": {
+    "batch_size": 16,
+    "max_iters": 800,
+    "eval_interval": 200,
+    "eval_iters": 30,
+    "learning_rate": 0.0003,
+    "n_embd": 64,
+    "n_head": 4,
+    "n_layer": 2,
+    "dropout": 0.1,
+    "block_size": 64,
+    "label": "context_64"
+  },
+  "param_count": 112193,
+  "final_train_loss": 2.3012301921844482,
+  "final_val_loss": 2.313023805618286,
+  "training_seconds": 17.44,
+  "history": [
+    {
+      "step": 0,
+      "train_loss": 4.166388511657715,
+      "val_loss": 4.164536952972412
+    },
+    {
+      "step": 200,
+      "train_loss": 2.6733696460723877,
+      "val_loss": 2.675212860107422
+    },
+    {
+      "step": 400,
+      "train_loss": 2.5000691413879395,
+      "val_loss": 2.4901480674743652
+    },
+    {
+      "step": 600,
+      "train_loss": 2.413212776184082,
+      "val_loss": 2.421691656112671
+    },
+    {
+      "step": 800,
+      "train_loss": 2.3012301921844482,
+      "val_loss": 2.313023805618286
+    }
+  ],
+  "generated_sample": "LENHES\nNO:\nAber pers bis. Whou Cornove, aw wwidds cgral's:\nLe atptes; cogwef hourngf panjeince icethh sthat the ucome,"
+}

@@ -1,0 +1,50 @@
+{
+  "label": "context_64",
+  "seed": 1337,
+  "block_size": 64,
+  "parameters": {
+    "batch_size": 16,
+    "max_iters": 800,
+    "eval_interval": 200,
+    "eval_iters": 30,
+    "learning_rate": 0.0003,
+    "n_embd": 64,
+    "n_head": 4,
+    "n_layer": 2,
+    "dropout": 0.1,
+    "block_size": 64,
+    "label": "context_64"
+  },
+  "param_count": 112193,
+  "final_train_loss": 2.353454828262329,
+  "final_val_loss": 2.3508119583129883,
+  "training_seconds": 17.7,
+  "history": [
+    {
+      "step": 0,
+      "train_loss": 4.165310382843018,
+      "val_loss": 4.164545059204102
+    },
+    {
+      "step": 200,
+      "train_loss": 2.6904373168945312,
+      "val_loss": 2.691718339920044
+    },
+    {
+      "step": 400,
+      "train_loss": 2.5078647136688232,
+      "val_loss": 2.504143238067627
+    },
+    {
+      "step": 600,
+      "train_loss": 2.4263925552368164,
+      "val_loss": 2.4268903732299805
+    },
+    {
+      "step": 800,
+      "train_loss": 2.353454828262329,
+      "val_loss": 2.3508119583129883
+    }
+  ],
+  "generated_sample": "LEO:\nSe wourshe pers bis. Whout bloove, awed, ddiregr los\nZLBurtptestacogwef foyongf p;\njeince burthhissk tes gerieme,"
+}

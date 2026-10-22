@@ -1,0 +1,50 @@
+{
+  "label": "context_64",
+  "seed": 1234,
+  "block_size": 64,
+  "parameters": {
+    "batch_size": 16,
+    "max_iters": 800,
+    "eval_interval": 200,
+    "eval_iters": 30,
+    "learning_rate": 0.0003,
+    "n_embd": 64,
+    "n_head": 4,
+    "n_layer": 2,
+    "dropout": 0.1,
+    "block_size": 64,
+    "label": "context_64"
+  },
+  "param_count": 112193,
+  "final_train_loss": 2.3407819271087646,
+  "final_val_loss": 2.332904577255249,
+  "training_seconds": 18.36,
+  "history": [
+    {
+      "step": 0,
+      "train_loss": 4.227015972137451,
+      "val_loss": 4.226889133453369
+    },
+    {
+      "step": 200,
+      "train_loss": 2.6751556396484375,
+      "val_loss": 2.6949846744537354
+    },
+    {
+      "step": 400,
+      "train_loss": 2.520582675933838,
+      "val_loss": 2.510075807571411
+    },
+    {
+      "step": 600,
+      "train_loss": 2.428676128387451,
+      "val_loss": 2.4256017208099365
+    },
+    {
+      "step": 800,
+      "train_loss": 2.3407819271087646,
+      "val_loss": 2.332904577255249
+    }
+  ],
+  "generated_sample": "LENHE;\nN nomy f perere sh sshe bormeve, awed, ddiregg los\nZy uttptestacouwef foyongf p; jeince bortherdsk tor gerilie,"
+}

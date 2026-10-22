@@ -1,0 +1,50 @@
+{
+  "label": "context_128",
+  "seed": 2024,
+  "block_size": 128,
+  "parameters": {
+    "batch_size": 16,
+    "max_iters": 800,
+    "eval_interval": 200,
+    "eval_iters": 30,
+    "learning_rate": 0.0003,
+    "n_embd": 64,
+    "n_head": 4,
+    "n_layer": 2,
+    "dropout": 0.1,
+    "block_size": 128,
+    "label": "context_128"
+  },
+  "param_count": 116289,
+  "final_train_loss": 2.397768259048462,
+  "final_val_loss": 2.4137673377990723,
+  "training_seconds": 17.51,
+  "history": [
+    {
+      "step": 0,
+      "train_loss": 4.176485061645508,
+      "val_loss": 4.1743693351745605
+    },
+    {
+      "step": 200,
+      "train_loss": 2.6834051609039307,
+      "val_loss": 2.6837339401245117
+    },
+    {
+      "step": 400,
+      "train_loss": 2.520890235900879,
+      "val_loss": 2.514500379562378
+    },
+    {
+      "step": 600,
+      "train_loss": 2.4550070762634277,
+      "val_loss": 2.4475581645965576
+    },
+    {
+      "step": 800,
+      "train_loss": 2.397768259048462,
+      "val_loss": 2.4137673377990723
+    }
+  ],
+  "generated_sample": "LENHES\nN HMALBF EROR:\nS CANEBut somUvery weawidds cgral's:\nLe?\nMy estacogwef fourngf p; jeince borthedssk tof gerilis,"
+}

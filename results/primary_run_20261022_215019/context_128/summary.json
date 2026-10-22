@@ -1,0 +1,50 @@
+{
+  "label": "context_128",
+  "seed": 1337,
+  "block_size": 128,
+  "parameters": {
+    "batch_size": 16,
+    "max_iters": 800,
+    "eval_interval": 200,
+    "eval_iters": 30,
+    "learning_rate": 0.0003,
+    "n_embd": 64,
+    "n_head": 4,
+    "n_layer": 2,
+    "dropout": 0.1,
+    "block_size": 128,
+    "label": "context_128"
+  },
+  "param_count": 116289,
+  "final_train_loss": 2.3871142864227295,
+  "final_val_loss": 2.3914449214935303,
+  "training_seconds": 18.11,
+  "history": [
+    {
+      "step": 0,
+      "train_loss": 4.183979511260986,
+      "val_loss": 4.187685012817383
+    },
+    {
+      "step": 200,
+      "train_loss": 2.6807925701141357,
+      "val_loss": 2.6831867694854736
+    },
+    {
+      "step": 400,
+      "train_loss": 2.5192184448242188,
+      "val_loss": 2.506192445755005
+    },
+    {
+      "step": 600,
+      "train_loss": 2.4522573947906494,
+      "val_loss": 2.4527623653411865
+    },
+    {
+      "step": 800,
+      "train_loss": 2.3871142864227295,
+      "val_loss": 2.3914449214935303
+    }
+  ],
+  "generated_sample": "LEO:\nSe, nomber pers bis. ss,\n\nO Go buryowedwidds cgral!\n\nZLBurthe stacogwef foyongf p; jeince bortherdsk tof gerilis,"
+}

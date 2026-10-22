@@ -1,0 +1,50 @@
+{
+  "label": "context_64",
+  "seed": 5555,
+  "block_size": 64,
+  "parameters": {
+    "batch_size": 16,
+    "max_iters": 800,
+    "eval_interval": 200,
+    "eval_iters": 30,
+    "learning_rate": 0.0003,
+    "n_embd": 64,
+    "n_head": 4,
+    "n_layer": 2,
+    "dropout": 0.1,
+    "block_size": 64,
+    "label": "context_64"
+  },
+  "param_count": 112193,
+  "final_train_loss": 2.3182144165039062,
+  "final_val_loss": 2.3247835636138916,
+  "training_seconds": 17.43,
+  "history": [
+    {
+      "step": 0,
+      "train_loss": 4.148429870605469,
+      "val_loss": 4.1486310958862305
+    },
+    {
+      "step": 200,
+      "train_loss": 2.694397449493408,
+      "val_loss": 2.7144763469696045
+    },
+    {
+      "step": 400,
+      "train_loss": 2.5047287940979004,
+      "val_loss": 2.5033485889434814
+    },
+    {
+      "step": 600,
+      "train_loss": 2.4284679889678955,
+      "val_loss": 2.4175209999084473
+    },
+    {
+      "step": 800,
+      "train_loss": 2.3182144165039062,
+      "val_loss": 2.3247835636138916
+    }
+  ],
+  "generated_sample": "LENHE;\nN nomy f perare sh soll bo'meve, awed, ddshegral's\nZow, the shacouwef horongf p; jeince bortherssk tof geritie,"
+}

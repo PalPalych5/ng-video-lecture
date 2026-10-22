@@ -1,0 +1,50 @@
+{
+  "label": "context_128",
+  "seed": 9999,
+  "block_size": 128,
+  "parameters": {
+    "batch_size": 16,
+    "max_iters": 800,
+    "eval_interval": 200,
+    "eval_iters": 30,
+    "learning_rate": 0.0003,
+    "n_embd": 64,
+    "n_head": 4,
+    "n_layer": 2,
+    "dropout": 0.1,
+    "block_size": 128,
+    "label": "context_128"
+  },
+  "param_count": 116289,
+  "final_train_loss": 2.345792531967163,
+  "final_val_loss": 2.356818199157715,
+  "training_seconds": 17.11,
+  "history": [
+    {
+      "step": 0,
+      "train_loss": 4.169503688812256,
+      "val_loss": 4.172301769256592
+    },
+    {
+      "step": 200,
+      "train_loss": 2.6916487216949463,
+      "val_loss": 2.6860358715057373
+    },
+    {
+      "step": 400,
+      "train_loss": 2.50720477104187,
+      "val_loss": 2.518773317337036
+    },
+    {
+      "step": 600,
+      "train_loss": 2.4327266216278076,
+      "val_loss": 2.4548277854919434
+    },
+    {
+      "step": 800,
+      "train_loss": 2.345792531967163,
+      "val_loss": 2.356818199157715
+    }
+  ],
+  "generated_sample": "LENHES\nNONMALUF E:\nRord vess, t bomUver awe widds cgral's:\nLen the stacogwef four\nGf p; jeinchincet hissk tof gerilis,"
+}

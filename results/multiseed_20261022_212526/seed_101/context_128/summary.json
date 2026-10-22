@@ -1,0 +1,50 @@
+{
+  "label": "context_128",
+  "seed": 101,
+  "block_size": 128,
+  "parameters": {
+    "batch_size": 16,
+    "max_iters": 800,
+    "eval_interval": 200,
+    "eval_iters": 30,
+    "learning_rate": 0.0003,
+    "n_embd": 64,
+    "n_head": 4,
+    "n_layer": 2,
+    "dropout": 0.1,
+    "block_size": 128,
+    "label": "context_128"
+  },
+  "param_count": 116289,
+  "final_train_loss": 2.373706579208374,
+  "final_val_loss": 2.39064359664917,
+  "training_seconds": 17.03,
+  "history": [
+    {
+      "step": 0,
+      "train_loss": 4.183167457580566,
+      "val_loss": 4.1825408935546875
+    },
+    {
+      "step": 200,
+      "train_loss": 2.688887596130371,
+      "val_loss": 2.7019119262695312
+    },
+    {
+      "step": 400,
+      "train_loss": 2.5185887813568115,
+      "val_loss": 2.5305685997009277
+    },
+    {
+      "step": 600,
+      "train_loss": 2.4425156116485596,
+      "val_loss": 2.4439454078674316
+    },
+    {
+      "step": 800,
+      "train_loss": 2.373706579208374,
+      "val_loss": 2.39064359664917
+    }
+  ],
+  "generated_sample": "LENIN;\nP nomy f perere sh sshe bormever awed, dds cgral's:\nLen tpeest cogwef fomongf p; jeince bortherdsk tof gerilis,"
+}

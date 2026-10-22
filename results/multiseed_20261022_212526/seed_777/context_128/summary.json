@@ -1,0 +1,50 @@
+{
+  "label": "context_128",
+  "seed": 777,
+  "block_size": 128,
+  "parameters": {
+    "batch_size": 16,
+    "max_iters": 800,
+    "eval_interval": 200,
+    "eval_iters": 30,
+    "learning_rate": 0.0003,
+    "n_embd": 64,
+    "n_head": 4,
+    "n_layer": 2,
+    "dropout": 0.1,
+    "block_size": 128,
+    "label": "context_128"
+  },
+  "param_count": 116289,
+  "final_train_loss": 2.3938212394714355,
+  "final_val_loss": 2.3992397785186768,
+  "training_seconds": 17.64,
+  "history": [
+    {
+      "step": 0,
+      "train_loss": 4.177353382110596,
+      "val_loss": 4.177107334136963
+    },
+    {
+      "step": 200,
+      "train_loss": 2.6854519844055176,
+      "val_loss": 2.685847520828247
+    },
+    {
+      "step": 400,
+      "train_loss": 2.511286735534668,
+      "val_loss": 2.5166049003601074
+    },
+    {
+      "step": 600,
+      "train_loss": 2.4560747146606445,
+      "val_loss": 2.4465906620025635
+    },
+    {
+      "step": 800,
+      "train_loss": 2.3938212394714355,
+      "val_loss": 2.3992397785186768
+    }
+  ],
+  "generated_sample": "LENHES\nNONMALBF ENOR:\nS:\nBus, t bomover awe widds cgralos:\nLe?\nMy estacogwef foyongf p; jeince bort hissk tof gerilis,"
+}

@@ -1,0 +1,15 @@
+# Зависимости и локальные среды
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Smoke-прогоны и веса моделей 
+_smoke/
+*.pt
+*.pth
+results/**/*.pt
+results/**/*.pth
+
+# Локальные временные файлы
+*.log

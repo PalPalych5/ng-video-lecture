@@ -1,0 +1,50 @@
+{
+  "label": "context_128",
+  "seed": 999,
+  "block_size": 128,
+  "parameters": {
+    "batch_size": 16,
+    "max_iters": 800,
+    "eval_interval": 200,
+    "eval_iters": 30,
+    "learning_rate": 0.0003,
+    "n_embd": 64,
+    "n_head": 4,
+    "n_layer": 2,
+    "dropout": 0.1,
+    "block_size": 128,
+    "label": "context_128"
+  },
+  "param_count": 116289,
+  "final_train_loss": 2.3884294033050537,
+  "final_val_loss": 2.403452157974243,
+  "training_seconds": 17.56,
+  "history": [
+    {
+      "step": 0,
+      "train_loss": 4.192869186401367,
+      "val_loss": 4.192429542541504
+    },
+    {
+      "step": 200,
+      "train_loss": 2.6760122776031494,
+      "val_loss": 2.6828691959381104
+    },
+    {
+      "step": 400,
+      "train_loss": 2.515089511871338,
+      "val_loss": 2.5311226844787598
+    },
+    {
+      "step": 600,
+      "train_loss": 2.4530394077301025,
+      "val_loss": 2.4594998359680176
+    },
+    {
+      "step": 800,
+      "train_loss": 2.3884294033050537,
+      "val_loss": 2.403452157974243
+    }
+  ],
+  "generated_sample": "LENHES\nNGNMALE: pers bis. ss, t somover aweawidds cgral's:\nLe?\n\nKRealacouwef fourngf p; jeince bort horsk t theerilis,"
+}
