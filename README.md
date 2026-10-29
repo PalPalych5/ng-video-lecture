@@ -20,6 +20,13 @@ ng-video-lecture/
 
 ## Установка окружения
 
+1. **Клонирование репозитория:**
+```bash
+git clone https://github.com/PalPalych5/ng-video-lecture.git
+cd ng-video-lecture
+```
+
+2. **Установка зависимостей:**
 Проект управляется пакетным менеджером `uv`:
 
 ```bash
@@ -66,4 +73,5 @@ uv run python gpt.py
 - `results/pushkin_seeds/plot2_train_val_dynamics.png` — график 2: динамика обучения и расхождение Train/Val NLL.
 - `results/pushkin_seeds/microbenchmark.json` — результаты аппаратного ABBA-микробенчмарка на GPU.
 - `results/pushkin_seeds/fixed_target_indices.json` — фиксированные индексы позиций для расчета NLL.
-- `results/pushkin_seeds/checkpoint_{64,128}_seed{s}_{best,final}.pt` — сохраненные контрольные точки моделей (игнорируются Git).
+- `results/pushkin_seeds/checkpoint_{64,128}_seed{s}_final.pt` — финальные веса моделей на шаге 5000 (включены в репозиторий).
+- `results/pushkin_seeds/checkpoint_{64,128}_seed{s}_best.pt` — промежуточные лучшие чекпоинты (локальные).

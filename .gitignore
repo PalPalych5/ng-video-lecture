@@ -10,6 +10,7 @@ _smoke/
 *.pth
 results/**/*.pt
 results/**/*.pth
+!results/pushkin_seeds/checkpoint_*_final.pt
 
 # Локальные временные файлы и устаревшие артефакты
 *.log
