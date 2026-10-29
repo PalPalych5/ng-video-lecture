@@ -11,5 +11,6 @@ _smoke/
 results/**/*.pt
 results/**/*.pth
 
-# Локальные временные файлы
+# Локальные временные файлы и устаревшие артефакты
 *.log
+results/pushkin_comparison/

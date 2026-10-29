@@ -1,0 +1,98 @@
+{
+  "context_64": {
+    "wall_ms_median": 49.658883749998495,
+    "wall_ms_std": 0.4529447850781074,
+    "tokens_per_sec_median": 41241.772732179714,
+    "tokens_per_sec_std": 371.1121562162427,
+    "raw_measurements": [
+      {
+        "wall_ms_per_step": 49.81560249998438,
+        "gpu_ms_per_step": 49.81401672363281,
+        "tokens_per_sec": 41111.617590104266
+      },
+      {
+        "wall_ms_per_step": 49.48184250006307,
+        "gpu_ms_per_step": 49.48182983398438,
+        "tokens_per_sec": 41388.9195819131
+      },
+      {
+        "wall_ms_per_step": 49.38555000007909,
+        "gpu_ms_per_step": 49.38542175292969,
+        "tokens_per_sec": 41469.620162106534
+      },
+      {
+        "wall_ms_per_step": 49.86002750001717,
+        "gpu_ms_per_step": 49.86027526855469,
+        "tokens_per_sec": 41074.98737338833
+      },
+      {
+        "wall_ms_per_step": 49.338614999942365,
+        "gpu_ms_per_step": 49.338494873046876,
+        "tokens_per_sec": 41509.06951892331
+      },
+      {
+        "wall_ms_per_step": 49.50216500001261,
+        "gpu_ms_per_step": 49.502081298828124,
+        "tokens_per_sec": 41371.92787425516
+      },
+      {
+        "wall_ms_per_step": 50.263914999959525,
+        "gpu_ms_per_step": 50.26298828125,
+        "tokens_per_sec": 40744.936004321375
+      },
+      {
+        "wall_ms_per_step": 50.720737499977986,
+        "gpu_ms_per_step": 50.72069091796875,
+        "tokens_per_sec": 40377.96177551419
+      }
+    ]
+  },
+  "context_128": {
+    "wall_ms_median": 96.88722999994752,
+    "wall_ms_std": 0.5783464553508505,
+    "tokens_per_sec_median": 42276.37854490742,
+    "tokens_per_sec_std": 253.52808197397863,
+    "raw_measurements": [
+      {
+        "wall_ms_per_step": 96.57990749992678,
+        "gpu_ms_per_step": 96.5802001953125,
+        "tokens_per_sec": 42410.47756235535
+      },
+      {
+        "wall_ms_per_step": 96.00026749994868,
+        "gpu_ms_per_step": 96.00089721679687,
+        "tokens_per_sec": 42666.54777813186
+      },
+      {
+        "wall_ms_per_step": 95.88133999995989,
+        "gpu_ms_per_step": 95.88213500976562,
+        "tokens_per_sec": 42719.469711225494
+      },
+      {
+        "wall_ms_per_step": 97.24430249998477,
+        "gpu_ms_per_step": 97.24503173828126,
+        "tokens_per_sec": 42120.71961748753
+      },
+      {
+        "wall_ms_per_step": 96.3492750000114,
+        "gpu_ms_per_step": 96.35005493164063,
+        "tokens_per_sec": 42511.99606846565
+      },
+      {
+        "wall_ms_per_step": 97.22103250005603,
+        "gpu_ms_per_step": 97.22186279296875,
+        "tokens_per_sec": 42130.801274895326
+      },
+      {
+        "wall_ms_per_step": 97.4616425000022,
+        "gpu_ms_per_step": 97.462451171875,
+        "tokens_per_sec": 42026.7901805565
+      },
+      {
+        "wall_ms_per_step": 97.19455249996827,
+        "gpu_ms_per_step": 97.19547119140626,
+        "tokens_per_sec": 42142.2795274595
+      }
+    ]
+  }
+}

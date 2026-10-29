@@ -1,10 +1,69 @@
+# Символьная модель GPT на стихах А. С. Пушкина: сравнение длины контекста (64 vs 128)
 
-# nanogpt-lecture
+Учебный исследовательский проект по исследованию архитектуры Transformer (nanoGPT А. Карпати). Основная задача — сравнительное исследование качества языкового моделирования, динамики обучения и вычислительной эффективности символьных GPT с длиной контекста 64 и 128 символов на корпусе русской поэзии А. С. Пушкина.
 
-Code created in the [Neural Networks: Zero To Hero](https://karpathy.ai/zero-to-hero.html) video lecture series, specifically on the first lecture on nanoGPT. Publishing here as a Github repo so people can easily hack it, walk through the `git log` history of it, etc.
+## Структура репозитория
 
-NOTE: sadly I did not go too much into model initialization in the video lecture, but it is quite important for good performance. The current code will train and work fine, but its convergence is slower because it starts off in a not great spot in the weight space. Please see [nanoGPT model.py](https://github.com/karpathy/nanoGPT/blob/master/model.py) for `# init all weights` comment, and especially how it calls the `_init_weights` function. Even more sadly, the code in this repo is a bit different in how it names and stores the various modules, so it's not possible to directly copy paste this code here. My current plan is to publish a supplementary video lecture and cover these parts, then I will also push the exact code changes to this repo. For now I'm keeping it as is so it is almost exactly what we actually covered in the video.
+```text
+ng-video-lecture/
+├── gpt.py                  # Единый источник истины: архитектура GPT, токенизатор, обучение, чекпоинты
+├── context_comparison.ipynb # Главный рабочий файл: обучение, измерения, графики, генерация, выводы
+├── input.txt               # Обучающий корпус (стихотворения А. С. Пушкина в UTF-8)
+├── pyproject.toml          # Зависимости проекта (Python 3.12, PyTorch с поддержкой CUDA)
+├── uv.lock                 # Зафиксированные версии пакетов uv
+├── README.md               # Данная инструкция
+├── .gitignore              # Исключения Git (чекпоинты, виртуальное окружение, кэши)
+├── results/                # Результаты экспериментов, сводные таблицы и графики
+├── bigram.py               # Материал лекции (базовая биграммная модель)
+└── more.txt                # Материал лекции
+```
 
-### License
+## Установка окружения
 
-MIT
+Проект управляется пакетным менеджером `uv`:
+
+```bash
+# Синхронизация виртуального окружения и установка зависимостей
+uv sync
+```
+
+Если `uv` не установлен, можно использовать стандартный `pip`:
+```bash
+python -m venv .venv
+source .venv/bin/activate  # на Linux/macOS
+# или .venv\Scripts\activate на Windows
+pip install torch matplotlib pandas notebook ipykernel nbformat nbclient
+```
+
+## Запуск экспериментов
+
+### 1. Интерактивная работа в Jupyter Notebook (основной сценарий)
+Основной рабочий артефакт — [`context_comparison.ipynb`](context_comparison.ipynb).
+
+Запустите Jupyter или откройте ноутбук в VS Code / Google Colab:
+```bash
+uv run jupyter lab
+# или
+uv run jupyter notebook
+```
+
+- Ноутбук выполняется строго сверху вниз.
+- Флаг `FORCE_RETRAIN = False` по умолчанию загружает готовые сохраненные чекпоинты и результаты из папки `results/pushkin_seeds/`, что позволяет мгновенно экспериментировать с генерацией текста и графиками без ожидания повторного обучения.
+- При установке `FORCE_RETRAIN = True` запускается полный цикл 6 независимых сессий обучения по 3 сидам (`42`, `1337`, `2026`).
+
+### 2. Автономный запуск базовой модели из консоли
+Файл [`gpt.py`](gpt.py) содержит класс модели `GPTLanguageModel` и точку входа для автономного обучения базовой модели:
+```bash
+uv run python gpt.py
+```
+
+## Местонахождение результатов
+
+Все результаты, графики и веса моделей сохраняются в каталоге `results/`:
+- `results/pushkin_seeds/summary_all_runs.csv` — сводная таблица по всем 6 независимым запускам.
+- `results/pushkin_seeds/loss_trajectories.csv` — полная пошаговая история потерь (Train NLL, Val NLL, сопоставимый NLL).
+- `results/pushkin_seeds/plot1_val_comparison.png` — график 1: сравнение валидационной ошибки по трем сидам.
+- `results/pushkin_seeds/plot2_train_val_dynamics.png` — график 2: динамика обучения и расхождение Train/Val NLL.
+- `results/pushkin_seeds/microbenchmark.json` — результаты аппаратного ABBA-микробенчмарка на GPU.
+- `results/pushkin_seeds/fixed_target_indices.json` — фиксированные индексы позиций для расчета NLL.
+- `results/pushkin_seeds/checkpoint_{64,128}_seed{s}_{best,final}.pt` — сохраненные контрольные точки моделей (игнорируются Git).
